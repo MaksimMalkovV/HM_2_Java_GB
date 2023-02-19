@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Task1 {
+public class Task_1 {
     public static void main(String[] args) throws IOException {
         StringBuilder sb = new StringBuilder();
 

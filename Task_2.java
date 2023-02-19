@@ -6,7 +6,7 @@ import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
-public class Main {
+public class Task_2 {
 
     public static void main(String[] args) throws IOException {
         int[] nums = new int[] { 1, 3, 9, 8, 5, 7, 4, 6, 2, 10 };
@@ -19,7 +19,7 @@ public class Main {
     }
 
     public static int[] bubbleSort(int[] arr) throws IOException {
-        Logger loger = Logger.getLogger(Main.class.getName());
+        Logger loger = Logger.getLogger(Task_2.class.getName());
         FileHandler fileHand = new FileHandler("Task_2_log.txt");
         SimpleFormatter sFormatter = new SimpleFormatter();
         fileHand.setFormatter(sFormatter);
